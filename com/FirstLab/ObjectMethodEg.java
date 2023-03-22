@@ -13,7 +13,7 @@ public class ObjectMethodEg {  //object methods example
 			InetAddress i2 = InetAddress.getByName("www.yahoo.com");
 			InetAddress i3 = InetAddress.getByName("www.gmail.com");
 			
-			//equals() method -> used to check whether the given address are same or not
+			//equals() method -> It is used to check whether the given address are same or not
 			if(i1.equals(i2))
 			{
 				System.out.println("The given addresses "+i1+ " and " +i2+ " are same.");
@@ -58,7 +58,7 @@ public class ObjectMethodEg {  //object methods example
 			
 		} catch (Exception e) {
 			// TODO: handle exception
-			System.out.println("Invalid domain name");
+			System.out.println("Invalid domain name is given.");
 		}
 
 	}
