@@ -55,7 +55,6 @@ public class ObjectMethodEg {  //object methods example
 			{
 				System.out.println("The given address "+i1+" is invalid.");
 			}
-			
 		} catch (Exception e) {
 			// TODO: handle exception
 			System.out.println("Invalid domain name is given.");
